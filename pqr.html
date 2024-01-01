@@ -1,0 +1,22 @@
+<html>
+<script>
+
+function findMax()
+{
+let max=0;
+for(let i=0;i<arguments.length;i++)
+{
+if(arguments[i]>max)
+{
+max=arguments[i];
+}
+}
+ alert(max);
+}
+</script>
+<body>
+<form>
+<input type="Button" value="Click" onclick="findMax(1,2,45,7,47)">
+</form>
+</body>
+</html>
